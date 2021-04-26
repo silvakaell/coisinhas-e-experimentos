@@ -8,6 +8,9 @@ nome, R: caracter
 
 
 Inicio
+escreval("-----------------------------------------------------------------")
+escreval("------------------Comparador de séries---------------------------")
+escreval("-----------------------------------------------------------------")
 repita
       escreva("Digite o nome da série: ")
                       leia(nome)
