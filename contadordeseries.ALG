@@ -1,4 +1,6 @@
-Algoritmo "semnome"
+Algoritmo "comparador temporal de series"
+
+// com esse programa vocÃª pode saber quantas horas uma sÃ©rie dura, e comparar diferentes sÃ©ries
 
 Var
 q, d, h, m: real
@@ -7,18 +9,22 @@ nome, R: caracter
 
 Inicio
 repita
-escreva("Digite o nome da série: ")
-leia(nome)
-escreva("Digite a quantidade de episódios: ")
-leia(q)
-escreva("Digite a duração média de cada episodio, em minutos: ")
-leia(d)
-m <- q*d
-h <- m/60
-escreval("A série ", nome, " tem", q , " episódios, com a duração média de", d , " minutos, que equivalem a", h , " horas")
-escreval("Digite S para continuar o programa e N para encerrar")
+      escreva("Digite o nome da sÃ©rie: ")
+                      leia(nome)
+      escreva("Digite a quantidade de episÃ³dios: ")
+                      leia(q)
+      escreva("Digite a duraÃ§Ã£o mÃ©dia de cada episodio, em minutos: ")
+                      leia(d)
+                      m <- q*d
+                      h <- m/60
 
-leia(R)
-                     Ate (R = "N")
+      escreval("A sÃ©rie ", nome, " tem", q , " episÃ³dios, com a duraÃ§Ã£o mÃ©dia de", d ," minutos, que equivalem a", h , " horas")
+      escreva("Digite S para continuar o programa e N para encerrar: ")
+
+                      leia(R)
+Ate (R = "N")
+
+
+
+
 Fimalgoritmo
-
