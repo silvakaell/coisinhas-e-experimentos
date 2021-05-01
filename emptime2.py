@@ -1,3 +1,6 @@
+# com esse script você pode calcular o tempo perdido pelo kurapika do hunter x hunter quando ele usa o emperor time, em horas!
+
+
 horas = float(input('Olá, Kurapika! Digite quantas horas você usou o Emperor Time aqui: '))
 
 s = horas * 3600 #segundos perdidos
